@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Identity4ConsoleSample/bin/Debug/netcoreapp2.2
+/Identity4ConsoleSample/obj
+/Identity4SampleServerUseIdentity/bin/Debug/netcoreapp2.2
+/Identity4SampleServerUseIdentity/obj
+/Identity4WithDotnetcore/bin/Debug/netcoreapp2.2
+/Identity4WithDotnetcore/obj
