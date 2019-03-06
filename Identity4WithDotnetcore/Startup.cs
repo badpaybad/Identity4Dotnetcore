@@ -80,7 +80,14 @@ app.UseIdentityServerAuthentication(new IdentityServerAuthenticationOptions
 });
 
 After:
-app.UseAuthentication();*/
+app.UseAuthentication();
+ services.AddAuthentication("Bearer")
+               .AddIdentityServerAuthentication(options =>
+               {
+                   options.Authority = "https://localhost:44346";
+                   options.RequireHttpsMetadata = false;
+                   //options.ApiName = "account";
+               });*/
             app.UseAuthentication();
 
             app.UseStaticFiles();
