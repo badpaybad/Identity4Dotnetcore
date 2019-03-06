@@ -38,6 +38,7 @@ namespace Identity4WithDotnetcore
             services.AddIdentityServer()
        //.AddTemporarySigningCredential()
        .AddSigningCredential(CreateSigningCredential())
+      // can read from any db to map here
        .AddInMemoryApiResources(Config.GetApiResources())
        .AddInMemoryClients(Config.GetClients());
 
