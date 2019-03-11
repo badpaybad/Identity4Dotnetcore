@@ -9,3 +9,5 @@
 /Identity4SampleServerUseIdentity/obj
 /Identity4WithDotnetcore/bin/Debug/netcoreapp2.2
 /Identity4WithDotnetcore/obj
+/Identity4WebClient/bin/Debug/netcoreapp2.2
+/Identity4WebClient/obj

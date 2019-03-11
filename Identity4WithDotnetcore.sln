@@ -5,9 +5,11 @@ VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identity4WithDotnetcore", "Identity4WithDotnetcore\Identity4WithDotnetcore.csproj", "{7AE2FBF5-24A4-4799-9984-437F6B8C94D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity4ConsoleSample", "Identity4ConsoleSample\Identity4ConsoleSample.csproj", "{C5CAA30B-BF61-42BD-8A35-DBA12A76E9D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identity4ConsoleSample", "Identity4ConsoleSample\Identity4ConsoleSample.csproj", "{C5CAA30B-BF61-42BD-8A35-DBA12A76E9D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity4SampleServerUseIdentity", "Identity4SampleServerUseIdentity\Identity4SampleServerUseIdentity.csproj", "{60690C36-C96C-4DE8-8B85-2835A0E367E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identity4SampleServerUseIdentity", "Identity4SampleServerUseIdentity\Identity4SampleServerUseIdentity.csproj", "{60690C36-C96C-4DE8-8B85-2835A0E367E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity4WebClient", "Identity4WebClient\Identity4WebClient.csproj", "{7FB29AC3-DACC-4515-9136-2208D6B2D705}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{60690C36-C96C-4DE8-8B85-2835A0E367E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60690C36-C96C-4DE8-8B85-2835A0E367E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60690C36-C96C-4DE8-8B85-2835A0E367E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FB29AC3-DACC-4515-9136-2208D6B2D705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FB29AC3-DACC-4515-9136-2208D6B2D705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FB29AC3-DACC-4515-9136-2208D6B2D705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FB29AC3-DACC-4515-9136-2208D6B2D705}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
